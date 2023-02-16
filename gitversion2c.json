@@ -1,5 +1,5 @@
 { 
-  version: "1.0.3", 
+  version: "1.0.0", 
   url: "https://github.com/breakersun/utils-bucket/raw/main/bin/gitversion2c.exe", 
-  bin: "BinCalc.exe"
+  bin: "gitversion2c.exe"
 }
