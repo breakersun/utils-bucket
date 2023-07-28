@@ -39,7 +39,9 @@ scoop install breaker-utils/gcc-arm-none-eabi@5.4.1
 switch between 2 of them:
 
 Reset to latest version
-note : please check C:\Users\user\scoop\apps\gcc-arm-none-eabi\ to see which is the latest version number
+
+note:
+- please check `C:\Users\user\scoop\apps\gcc-arm-none-eabi\` to see which is the latest version number
 
 ```powershell
 scoop reset gcc-arm-none-eabi@12.2.rel1
