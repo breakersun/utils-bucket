@@ -21,21 +21,32 @@ scoop install breaker-utils/gitversion2c
 ## Switch `arm-gcc` version
 
 You can install 2 version `arm-gcc` at the same time:
+
+install the latest:
 ```powershell
 scoop bucket add extras
-scoop install extras/gcc-arm-none-eabi // install the latest arm-gcc
-scoop install breaker-utils/gcc-arm-none-eabi@5.4.1 // install my old version of arm-gcc
+scoop update
+scoop install extras/gcc-arm-none-eabi
+```
+
+install my old version:
+```powershell
+scoop bucket add breaker-utils https://github.com/breakersun/utils-bucket.git
+scoop update
+scoop install breaker-utils/gcc-arm-none-eabi@5.4.1
 ```
 
 switch between 2 of them:
 
 Reset to latest version
 note : please check C:\Users\user\scoop\apps\gcc-arm-none-eabi\ to see which is the latest version number
+
 ```powershell
 scoop reset gcc-arm-none-eabi@12.2.rel1
 ```
 
 Reset to old version 5.4.1
+
 ```powershell
 scoop reset gcc-arm-none-eabi@5.4.1
 ```
