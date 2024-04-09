@@ -9,13 +9,10 @@
             "hash": "c0b1beda28741583aa3be756978c0e5e00f3a8f6e84ca267774da18da1605825"
         }
     },
-    "bin": "/bin/openocd.exe",
-    "shortcuts": [
-        [
-            "openocd.exe",
-            "OPENOCD EXE"
-        ]
-    ],
+    "env_add_path": "bin",
+    "env_set": {
+        "TL_PATH": "$dir\\bin"
+    },
     "checkver": {
         "github": "https://github.com/breakersun/infineon-openocd"
     },
