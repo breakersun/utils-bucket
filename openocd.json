@@ -9,7 +9,7 @@
             "hash": "c0b1beda28741583aa3be756978c0e5e00f3a8f6e84ca267774da18da1605825"
         }
     },
-    "bin": "openocd.exe",
+    "bin": "/bin/openocd.exe",
     "shortcuts": [
         [
             "openocd.exe",
