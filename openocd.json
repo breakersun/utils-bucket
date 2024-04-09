@@ -1,0 +1,30 @@
+{
+    "version": "4.4.0.2134",
+    "description": "Infineon's customized OpenOCD",
+    "homepage": "https://github.com/breakersun/infineon-openocd",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/breakersun/infineon-openocd/releases/download/v4.4.0.2134/openocd-v4.4.0.2134-i686-w64-mingw32.tar.gz",
+            "hash": "c0b1beda28741583aa3be756978c0e5e00f3a8f6e84ca267774da18da1605825"
+        }
+    },
+    "bin": "openocd.exe",
+    "shortcuts": [
+        [
+            "openocd.exe",
+            "OPENOCD EXE"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/breakersun/infineon-openocd"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/islamadel/bat2exe/releases/download/$version/bat2exe.exe"
+                "url": "https://github.com/breakersun/infineon-openocd/releases/download/v$version/openocd-v$version-i686-w64-mingw32.tar.gz"
+            }
+        }
+    }
+}
