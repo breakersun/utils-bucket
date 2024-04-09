@@ -22,7 +22,6 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/islamadel/bat2exe/releases/download/$version/bat2exe.exe"
                 "url": "https://github.com/breakersun/infineon-openocd/releases/download/v$version/openocd-v$version-i686-w64-mingw32.tar.gz"
             }
         }
