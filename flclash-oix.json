@@ -5,9 +5,10 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.dler.io/flclash-windows-amd64-setup.exe"
+            "url": "https://raw.githubusercontent.com/breakersun/utils-bucket/main/README.md"
         }
     },
+    "pre_install": "Start-BitsTransfer -Source 'https://dl.dler.io/flclash-windows-amd64-setup.exe' -Destination \"$dir\\flclash-windows-amd64-setup.exe\"",
     "installer": {
         "script": "Start-Process \"$dir\\flclash-windows-amd64-setup.exe\" -Wait"
     }
