@@ -1,0 +1,19 @@
+{
+  "version": "1.5.1-r1",
+  "description": "RustDesk Windows Portable",
+  "homepage": "https://github.com/rustdesk/rustdesk",
+  "license": "AGPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/breakersun/rustdesk/releases/download/custom-client-portable/RustDesk-portable-x64.zip",
+      "hash": "ffb5eccd844f201cb15fa13b256f54f1756b983f09aadb5804c07e931d87225d"
+    }
+  },
+  "bin": "RustDesk.exe",
+  "shortcuts": [
+    [
+      "RustDesk.exe",
+      "RustDesk Portable"
+    ]
+  ]
+}
